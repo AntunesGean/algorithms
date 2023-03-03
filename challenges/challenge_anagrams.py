@@ -1,6 +1,5 @@
 def join_sort(arr_word):
 
-
     if len(arr_word) <= 1:
         return arr_word
 
@@ -13,7 +12,6 @@ def join_sort(arr_word):
 
 
 def join_merge(left, right):
-
 
     arr = []
     counterA = 0
@@ -33,8 +31,8 @@ def join_merge(left, right):
 
     return "".join(arr)
 
-def is_anagram(first_string, second_string):
 
+def is_anagram(first_string, second_string):
 
     first_Lower = first_string.lower()
     second_Lower = second_string.lower()
